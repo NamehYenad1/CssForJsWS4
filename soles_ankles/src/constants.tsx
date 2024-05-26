@@ -19,9 +19,4 @@ export const WEIGHTS = {
 };
 
 export const SORTING_TYPES = {
-  newest: 'Newest Releases',
-  price: 'Price'
-} as const;
-
-export type SortingType = keyof typeof SORTING_TYPES;
-export type SortingTypeValue = (typeof SORTING_TYPES)[SortingType];
+  newest: 'Newest Releases export type SortingTypeValue = (typeof SORTING_TYPES)[SortingType];
