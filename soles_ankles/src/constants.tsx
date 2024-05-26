@@ -19,7 +19,7 @@ export const WEIGHTS = {
 };
 
 export const SORTING_TYPES = {
-  newest: 'Newest Release',
+  newest: 'Newest Releases',
   price: 'Price'
 } as const;
 
